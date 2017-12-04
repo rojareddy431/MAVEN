@@ -215,3 +215,33 @@ C:\Program Files\Apache Software Foundation\apache-maven-3.5.2
 mvn install
 C:\Users\roja reddy\Documents\Desktop\Maven
 sudo su
+mvn --version
+The JAVA_HOME environment variable is not defined correctly
+This environment variable is needed to run this program
+NB: JAVA_HOME should point to a JDK not a JRE
+cd /opt/
+ll
+mkdir -p tmp
+ll
+cd maven/
+vi 
+cd apache-maven-3.5.2/
+ll
+cd bin/
+ll
+cd ..
+cd conf/
+lll
+ll
+vi toolchains.xml 
+echo $JAVA_HOME
+/etc/alternatives/jre_openjdk/bin
+vi toolchains.xml 
+mvn --version
+cd /opt
+ls
+mkdir java
+ls
+ll
+ls -lrta
+vi ~/.bashrc
